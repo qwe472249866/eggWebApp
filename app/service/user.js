@@ -20,7 +20,8 @@ class UserService extends Service {
 
 
     async find(uid) {
-        const user = {id: uid};
+        const {ctx} = this;
+        const user = await ctx.model.User.findById(toInt(uid));
         return user;
     }
 }
