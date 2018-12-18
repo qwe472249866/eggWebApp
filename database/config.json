@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "qwe8244156",
+    "database": "guns",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "qwe8244156",
+    "database": "guns",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "qwe8244156",
+    "database": "guns",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
